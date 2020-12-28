@@ -1,7 +1,6 @@
 package com.jithendra.telecomapplication.dto;
 
 
-
 import java.sql.Date;
 
 import com.jithendra.telecomapplication.entity.CallDetails;
