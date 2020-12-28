@@ -21,9 +21,8 @@ import com.jithendra.telecomapplication.dto.CustomerDTO;
 import com.jithendra.telecomapplication.dto.FriendFamilyDTO;
 import com.jithendra.telecomapplication.service.CustomerService;
 
-    
+
 @RestController
-@CrossOrigin
 public class CustomerController {
 	
 	Logger logger=LoggerFactory.getLogger(this.getClass());
@@ -39,13 +38,7 @@ public class CustomerController {
 		customerservice.createCustomer(customerdto);
 	}
 	
-//	@PostMapping(value="/login", consumes=MediaType.APPLICATION_JSON_VALUE)
-//	public boolean login(@RequestBody LoginDTO logindto)
-//	{
-//		logger.info("login reuqest for customer {} with password {}", logindto.getPhoneNo(),logindto.getPassword());
-//		return customerservice.login(logindto);
-//	}
-//	
+
 	@GetMapping(value="/customers/{phoneNo}", produces=MediaType.APPLICATION_JSON_VALUE)
 	public CustomerDTO getCustomerProfile(@PathVariable Long phoneNo)
 	{
