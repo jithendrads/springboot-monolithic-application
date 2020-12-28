@@ -21,7 +21,7 @@ import com.jithendra.telecomapplication.dto.CustomerDTO;
 import com.jithendra.telecomapplication.dto.FriendFamilyDTO;
 import com.jithendra.telecomapplication.service.CustomerService;
 
-
+    
 @RestController
 @CrossOrigin
 public class CustomerController {
