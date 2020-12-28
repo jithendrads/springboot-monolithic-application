@@ -1,7 +1,7 @@
 package com.jithendra.telecomapplication.dto;
 
 
-
+  
 import com.jithendra.telecomapplication.entity.Plan;
 
 public class PlanDTO {
