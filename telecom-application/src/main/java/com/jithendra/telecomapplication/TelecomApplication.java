@@ -2,7 +2,7 @@ package com.jithendra.telecomapplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-//starting point of the application execution
+//starting point of the execution
 @SpringBootApplication
 public class TelecomApplication {
 
@@ -10,4 +10,4 @@ public class TelecomApplication {
 		SpringApplication.run(TelecomApplication.class, args);
 	}
    
-}
+} 
