@@ -12,15 +12,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-import com.infytelcopy.dto.CallDetailsDTO;
-import com.infytelcopy.dto.CustomerDTO;
-import com.infytelcopy.dto.FriendFamilyDTO;
-import com.infytelcopy.entity.CallDetails;
-import com.infytelcopy.entity.Customer;
-import com.infytelcopy.entity.FriendFamily;
-import com.infytelcopy.entity.Plan;
-import com.infytelcopy.repository.CallDetailsRepository;
-import com.infytelcopy.repository.CustomerRepository;
+import com.jithendra.telecomapplication.dto.CallDetailsDTO;
+import com.jithendra.telecomapplication.dto.CustomerDTO;
+import com.jithendra.telecomapplication.dto.FriendFamilyDTO;
+import com.jithendra.telecomapplication.entity.CallDetails;
+import com.jithendra.telecomapplication.entity.Customer;
+import com.jithendra.telecomapplication.entity.FriendFamily;
+import com.jithendra.telecomapplication.entity.Plan;
+import com.jithendra.telecomapplication.repository.CallDetailsRepository;
+import com.jithendra.telecomapplication.repository.CustomerRepository;
 
 
 

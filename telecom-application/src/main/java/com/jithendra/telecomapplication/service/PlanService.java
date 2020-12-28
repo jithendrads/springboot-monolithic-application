@@ -9,9 +9,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.infytelcopy.dto.PlanDTO;
-import com.infytelcopy.entity.Plan;
-import com.infytelcopy.repository.PlanRepository;
+import com.jithendra.telecomapplication.dto.PlanDTO;
+import com.jithendra.telecomapplication.entity.Plan;
+import com.jithendra.telecomapplication.repository.PlanRepository;
 
 
 
