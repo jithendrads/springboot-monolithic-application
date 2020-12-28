@@ -1,6 +1,6 @@
 package com.jithendra.telecomapplication.entity;
 
-
+  
 
 import java.sql.Date;
 
