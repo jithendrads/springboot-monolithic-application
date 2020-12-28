@@ -1,6 +1,6 @@
 package com.jithendra.telecomapplication.dto;
 
-
+  
 import com.jithendra.telecomapplication.entity.FriendFamily;
 
 public class FriendFamilyDTO {
