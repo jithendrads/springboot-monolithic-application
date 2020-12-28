@@ -21,7 +21,7 @@ import com.jithendra.telecomapplication.entity.FriendFamily;
 import com.jithendra.telecomapplication.entity.Plan;
 import com.jithendra.telecomapplication.repository.CallDetailsRepository;
 import com.jithendra.telecomapplication.repository.CustomerRepository;
-
+  
 
 
 @Service
