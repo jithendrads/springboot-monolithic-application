@@ -9,5 +9,5 @@ public class TelecomApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TelecomApplication.class, args);
 	}
-
+   
 }
